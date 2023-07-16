@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<!--  <link type="text/css" rel="stylesheet" href="style/materialize.css" media="screen,projection" />-->
+  <!--  <link type="text/css" rel="stylesheet" href="style/materialize.css" media="screen,projection" />-->
   <link rel="stylesheet" href="style/style.css">
   <title>Document</title>
 </head>
@@ -95,6 +95,20 @@
       </div>
     </div>
   </section>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae distinctio voluptatum earum quae, vero sunt
+        explicabo eligendi dolore iste. Maxime culpa cupiditate ut qui, dicta id totam exercitationem repudiandae
+        laboriosam recusandae doloremque praesentium voluptatem iure dolores dolor error corporis mollitia adipisci
+        itaque nisi tenetur pariatur cum minus alias. Minus recusandae impedit expedita molestias laboriosam nisi dolore
+        iste molestiae. Minus fuga nam sint hic molestiae vitae aspernatur maiores ex tenetur. Nostrum, et, minima
+        beatae eveniet tempora, a quisquam facilis nobis hic facere vitae? Fugiat minima deleniti libero, odio rem
+        praesentium, blanditiis ipsum hic quia cum error quibusdam odit modi itaque mollitia!</p>
+    </div>
+  </div>
   <section class="request">
     <div class="container">
       <div class="request__flex">
@@ -103,10 +117,10 @@
           <h5 class="request__h5">Реализуем самые смелые решения в России!</h5>
         </div>
         <div class="request__flex-right">
-          <button class="request__btn">
+          <a class="request__btn modal-trigger" href="#modal1">
             <img src="images/envelope.svg" alt="Envelope" class="request__icon">
             Ваш запрос
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -145,28 +159,28 @@
   <section class="portfolio">
     <div class="portfolio__grid">
       <div class="portfolio__grid-item">
-        <img src="images/portfolio-item.jpg" alt="Portfolio Item" class="portfolio__img">
+        <img src="images/portfolio-item.jpg" alt="Portfolio Item" class="portfolio__img materialboxed">
       </div>
       <div class="portfolio__grid-item">
-        <img src="images/portfolio-item.jpg" alt="Portfolio Item" class="portfolio__img">
+        <img src="images/portfolio-item.jpg" alt="Portfolio Item" class="portfolio__img materialboxed">
       </div>
       <div class="portfolio__grid-item">
-        <img src="images/portfolio-item.jpg" alt="Portfolio Item" class="portfolio__img">
+        <img src="images/portfolio-item.jpg" alt="Portfolio Item" class="portfolio__img materialboxed">
       </div>
       <div class="portfolio__grid-item">
-        <img src="images/portfolio-item.jpg" alt="Portfolio Item" class="portfolio__img">
+        <img src="images/portfolio-item.jpg" alt="Portfolio Item" class="portfolio__img materialboxed">
       </div>
       <div class="portfolio__grid-item">
-        <img src="images/portfolio-item.jpg" alt="Portfolio Item" class="portfolio__img">
+        <img src="images/portfolio-item.jpg" alt="Portfolio Item" class="portfolio__img materialboxed">
       </div>
       <div class="portfolio__grid-item">
-        <img src="images/portfolio-item.jpg" alt="Portfolio Item" class="portfolio__img">
+        <img src="images/portfolio-item.jpg" alt="Portfolio Item" class="portfolio__img materialboxed">
       </div>
       <div class="portfolio__grid-item">
-        <img src="images/portfolio-item.jpg" alt="Portfolio Item" class="portfolio__img">
+        <img src="images/portfolio-item.jpg" alt="Portfolio Item" class="portfolio__img materialboxed">
       </div>
       <div class="portfolio__grid-item">
-        <img src="images/portfolio-item.jpg" alt="Portfolio Item" class="portfolio__img">
+        <img src="images/portfolio-item.jpg" alt="Portfolio Item" class="portfolio__img materialboxed">
       </div>
     </div>
   </section>
@@ -278,10 +292,10 @@
           <h5 class="request__h5">Оставьте заявку и мы свяжемся с вами!</h5>
         </div>
         <div class="request__flex-right">
-          <button class="request__btn">
+          <a class="request__btn modal-trigger" href="#modal1">
             <img src="images/envelope.svg" alt="Envelope" class="request__icon">
             Ваш запрос
-          </button>
+          </a>
         </div>
       </div>
     </div>
