@@ -3451,7 +3451,7 @@ nav ul a span.badge {
   margin-left: 4px;
   line-height: 22px;
   height: 22px;
-  -webkit-font-smoothing: auto;
+  /*-webkit-font-smoothing: auto;*/
 }
 
 .collection-item span.badge {
@@ -5988,7 +5988,7 @@ body.keyboard-focused .dropdown-content li:focus {
 .waves-circle {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+  /*-webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);*/
 }
 
 .waves-input-wrapper {
@@ -6323,7 +6323,7 @@ body.keyboard-focused .dropdown-content li:focus {
 
 .materialboxed {
   display: block;
-  cursor: -webkit-zoom-in;
+  /*cursor: -webkit-zoom-in;*/
   cursor: zoom-in;
   position: relative;
   -webkit-transition: opacity .4s;
@@ -6336,7 +6336,7 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 
 .materialboxed.active {
-  cursor: -webkit-zoom-out;
+  /*cursor: -webkit-zoom-out;*/
   cursor: zoom-out;
 }
 
@@ -7809,7 +7809,7 @@ input[type=range]::-ms-thumb {
   padding-left: 16px;
   height: 1.5rem;
   line-height: 1.5rem;
-  letter-spacing: .4;
+  letter-spacing: 0.4em;
   display: inline-block;
 }
 
